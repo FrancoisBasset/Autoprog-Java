@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.francois.autoprog.controllers.MenuBarController">
+   <children>
+      <MenuBar fx:id="menuBar" layoutX="10.0" layoutY="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <menus>
+            <Menu fx:id="fileMenu" mnemonicParsing="false" text="Fichier">
+               <items>
+                  <MenuItem fx:id="newFileMenuItem" mnemonicParsing="false" onAction="#onNewFileMenuItemAction" text="Nouveau fichier" />
+                  <MenuItem fx:id="openFileMenuItem" mnemonicParsing="false" onAction="#onOpenFileMenuItemAction" text="Ouvrir fichier" />
+                  <MenuItem fx:id="saveFileMenuItem" mnemonicParsing="false" onAction="#onSaveFileMenuItemAction" text="Enregistrer" />
+                  <MenuItem fx:id="saveFileAsMenuItem" mnemonicParsing="false" onAction="#onSaveFileAsMenuItemAction" text="Enregistrer sous" />
+                  <MenuItem fx:id="quitMenuItem" mnemonicParsing="false" onAction="#onQuitMenuItemAction" text="Quitter" />
+               </items>
+            </Menu>
+            <Menu fx:id="displayMenu" mnemonicParsing="false" text="Affichage">
+               <items>
+                  <MenuItem fx:id="fullscreenMenuItem" mnemonicParsing="false" onAction="#onFullscreenMenuItemAction" text="Activer le plein écran" />
+                  <MenuItem fx:id="changeSplitOrientationMenuItem" mnemonicParsing="false" onAction="#onChangeSplitOrientationMenuItemAction" text="Changer l'orientation du panneau d'édition" />
+                  <MenuItem fx:id="editorMenuItem" mnemonicParsing="false" onAction="#onEditorMenuItemAction" text="Afficher l'éditeur" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
