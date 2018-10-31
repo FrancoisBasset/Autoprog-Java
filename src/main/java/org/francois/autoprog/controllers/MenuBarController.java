@@ -7,8 +7,6 @@ import org.francois.autoprog.helpers.MainHelper;
 import org.francois.autoprog.helpers.MenuBarHelper;
 import org.francois.autoprog.helpers.StageHelper;
 import org.francois.autoprog.models.controls.AutoprogButton;
-import org.francois.autoprog.models.controls.AutoprogLabel;
-import org.francois.autoprog.models.exceptions.AlreadyExistingIdControlException;
 import org.francois.autoprog.models.progfile.ProgFile;
 
 import java.io.File;

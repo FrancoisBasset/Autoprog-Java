@@ -1,6 +1,5 @@
 package org.francois.autoprog.models.progfile;
 
-import javafx.scene.control.Control;
 import jdk.jshell.spi.ExecutionControl;
 import org.francois.autoprog.models.controls.AutoprogButton;
 import org.francois.autoprog.models.controls.AutoprogControl;

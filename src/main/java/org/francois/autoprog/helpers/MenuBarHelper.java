@@ -1,6 +1,5 @@
 package org.francois.autoprog.helpers;
 
-import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
 import org.francois.autoprog.controllers.Controllers;
 

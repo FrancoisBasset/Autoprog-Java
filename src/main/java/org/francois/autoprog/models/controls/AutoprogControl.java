@@ -1,16 +1,12 @@
 package org.francois.autoprog.models.controls;
 
 import javafx.scene.Node;
-import javafx.scene.control.Control;
 import org.francois.autoprog.controllers.Controllers;
-import org.francois.autoprog.forms.MainForm;
 import org.francois.autoprog.service.sqlite.SqliteServiceInsert;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public abstract class AutoprogControl<T> {
     protected Class t;

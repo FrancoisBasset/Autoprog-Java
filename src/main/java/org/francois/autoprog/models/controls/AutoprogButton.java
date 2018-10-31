@@ -1,7 +1,6 @@
 package org.francois.autoprog.models.controls;
 
 import javafx.scene.control.Button;
-import org.francois.autoprog.service.sqlite.SqliteServiceInsert;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

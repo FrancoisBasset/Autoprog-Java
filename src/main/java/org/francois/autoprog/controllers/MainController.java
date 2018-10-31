@@ -13,14 +13,9 @@ import org.francois.autoprog.models.controls.AutoprogTextField;
 import org.francois.autoprog.models.exceptions.AlreadyExistingIdControlException;
 import org.francois.autoprog.models.progfile.ProgFile;
 
-import java.awt.event.ActionEvent;
 import java.io.IOException;
 import java.sql.SQLException;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
 import java.util.Random;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class MainController {
